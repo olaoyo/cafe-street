@@ -21,6 +21,11 @@ export const theme = {
       three: "#00000028"
     },
 
+    yellow:"#FFD057",
+
+    hot:   "#FF912B",
+
+    cold:  "#FFD28F",
   },
 
   fontSizes: {

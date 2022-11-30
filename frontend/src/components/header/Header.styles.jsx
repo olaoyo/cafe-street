@@ -1,7 +1,7 @@
 import styled from "styled-components";
 
 export const HeaderStyles = styled.div`
-  grid-column: left-start 1 / right-end 12;
+  grid-column: left-start / right-end;
 
   display: grid;
   grid-template-columns: repeat(12, minmax(13rem, auto));
@@ -43,7 +43,7 @@ export const ProfileOuter = styled.div`
   grid-template-columns: 1fr;
 
   color: ${({ theme }) => theme.colors.primary};
-  background: #ffffff5f;
+  background: ${({ theme }) => theme.colors.black.two};
   filter: drop-shadow(0px 6px 16px ${({ theme }) => theme.colors.black.three});
   border-radius: 50%;
   width: 5.3rem ;

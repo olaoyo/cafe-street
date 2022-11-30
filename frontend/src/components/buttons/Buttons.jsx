@@ -36,3 +36,22 @@ export const OrderNowButton = styled.button`
     cursor: pointer;
   }
 `;
+
+export const OrderNowHero = styled.button`
+  font-size: ${({ theme }) => theme.fontSizes.paragraphs.p3};
+  color: ${({ theme }) => theme.colors.white.one};
+  background: ${({ theme }) => theme.colors.secondary};
+  width: 170px;
+  height: 46px;
+  border-radius: 33px;
+  border: none;
+  align-self: center;
+
+  span {
+    margin-left: -35px;
+  }
+
+  :hover {
+    cursor: pointer;
+  }
+`;
